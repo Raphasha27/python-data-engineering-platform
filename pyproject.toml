@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "data-engineering-platform"
+version = "1.0.0"
+description = "End-to-end data engineering platform"
+requires-python = ">=3.12"
+dependencies = [
+    "apache-spark>=3.5.0",
+    "kafka-python>=2.0.0",
+    "sqlalchemy>=2.0.0",
+    "psycopg2-binary>=2.9.0",
+    "pandas>=2.2.0",
+    "pyarrow>=17.0.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0", "ruff>=0.6.0"]
