@@ -66,8 +66,10 @@ python -m src.transform.spark_jobs
 
 MIT License
 
-
 ## Live Demo
-- **GitHub Pages:** [https://raphasha27.github.io/python-data-engineering-platform](https://raphasha27.github.io/python-data-engineering-platform)
-- **Docker Hub:** [docker pull raphasha27/python-data-engineering-platform](https://hub.docker.com/r/raphasha27/python-data-engineering-platform)
+
+| Platform | URL |
+|----------|-----|
+| GitHub Pages | [https://raphasha27.github.io/python-data-engineering-platform](https://raphasha27.github.io/python-data-engineering-platform) |
+| Docker Hub | [docker pull raphasha27/python-data-engineering-platform](https://hub.docker.com/r/raphasha27/python-data-engineering-platform) |
 
